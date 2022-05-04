@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Rum API Tests') {
             steps {
-                sh 'cd backend && robot - d/logs tests'
+                sh 'cd backend && robot - d ./logs tests'
             }
         }
         stage('Rum UI Tests') {
