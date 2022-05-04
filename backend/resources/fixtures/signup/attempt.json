@@ -1,0 +1,34 @@
+{
+    "empty_name": {
+        "name": "",
+        "email": "josilda@simplicio.com",
+        "password": "pwd123"
+    },
+    "empty_email": {
+        "name": "Josilda Simplicio",
+        "email": "",
+        "password": "pwd123"
+    },
+    "empty_pass": {
+        "name": "josilda Simplicio",
+        "email": "josilda@simplicio.com",
+        "password": ""
+    },
+    "whithout_name": {
+        "email": "josilda@simplicio.com",
+        "password": "pwd123"
+    },
+    "whithout_email": {
+        "name": "Josilda Simplicio",
+        "password": "pwd123"
+    },
+    "whithout_pass": {
+        "name": "Josilda Simplicio",
+        "email": "josilda@simplicio.com"
+    },
+    "wrong_email": {
+        "name": "Josilda Simplicio",
+        "email": "josilda&simplicio.com",
+        "password": "pwd123"
+    }
+}

@@ -1,0 +1,26 @@
+[
+   {
+      "payload": {
+          "name": "Piano de Mesa",
+          "category": "Teclas",
+          "price": 500
+        },
+        "thumb": "piano.png"
+    },
+    {
+      "payload": {
+          "name": "Fender Strato",
+          "category": "Cordas",
+          "price": 100
+        },
+        "thumb": "guitarra-strato.png"
+    },
+    {
+      "payload": {
+          "name": "Violino",
+          "category": "Cordas",
+          "price": 50
+        },
+        "thumb": "violino.png"
+    }
+]
