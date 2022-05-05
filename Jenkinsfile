@@ -11,12 +11,12 @@ pipeline {
         }
         stage('Rum API Tests') {
             steps {
-                sh 'cd backend && robot\tests'
+                sh 'cd backend && robot -d ./logs tests'
             }
         }
         stage('Rum UI Tests') {
             steps{
-                sh 'cd frontend && robot\tests'
+                sh 'cd frontend && robot -d ./logs tests'
             }
         } 
     }
