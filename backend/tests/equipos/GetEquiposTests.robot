@@ -34,7 +34,7 @@ Equipo Not Found
 
 Get Equipo List
 
-    ${token}    Get Token    josilda@simplicio.com    19012009
+    ${token}    Get Token     paulinn.rs@gmail.com    19012009
 
     ${list}    Get Json    equipos    list.json
 
